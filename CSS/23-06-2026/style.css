@@ -1,0 +1,45 @@
+h1{
+    display: inline;
+}
+
+h1:nth-child(2){
+    /* display: none; */
+    visibility: hidden;
+}
+
+a{
+    /* display: block; */
+}
+
+span{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border:1px solid white;
+    display: inline-block;
+}
+
+/* Media - Queries */
+
+
+@media (max-width:500px){
+    nav{
+        display: none;
+    }
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border:2px solid white;
+}
+
+.maindiv{
+    display:flex;
+}
+
+/* Child Properties */
+
+/* Parent Properties */

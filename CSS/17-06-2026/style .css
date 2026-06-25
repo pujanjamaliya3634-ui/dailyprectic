@@ -1,0 +1,75 @@
+/* Universal Selector */
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1400px;
+  height: 100vh;
+  margin-inline: auto;
+}
+
+/* Box-Sizing in CSS */
+
+.content{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border:10px solid black;
+  background-color: red;
+  float: right;
+}
+
+.border{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border:10px solid black;
+  background-color: gray;
+  float: right;
+}
+
+.link_btn{
+  background-color:gray;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 50px;
+  padding: 0px 40px;
+}
+
+/* Typography */
+
+/* text properties */
+
+.para_1{
+  text-align: center;
+  text-decoration: underline wavy red;
+  
+  text-transform: capitalize;
+  text-shadow: 10px 10px 5px black;
+}
+
+/* font properties */
+
+ .para_1{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial;
+} 
+
+.para_1{
+  font:italic bold 30px Arial;
+}
