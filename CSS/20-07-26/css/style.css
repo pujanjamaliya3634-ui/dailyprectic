@@ -1,0 +1,55 @@
+
+body > p:first-of-type{
+    background: red;
+    color: white;
+}
+
+.box1 h1:nth-child(3){
+    background: red;
+    color: white;
+}
+
+.box1 h1:last-child{
+    background: red;
+    color: white;
+}
+
+body > div:nth-of-type(2) h1:nth-child(3){
+    background: red;
+    color: white;
+}
+
+section .box h1:nth-child(4){
+    background: red;
+    color: white;
+}
+
+section .box p:last-child{
+    background: red;
+    color: white;
+}
+
+body > h1:nth-child(11){
+    background: red;
+    color: white;
+}
+
+body > div:last-of-type h1:nth-child(3){
+    background: red;
+    color: white;
+}
+
+body > h1:nth-last-of-type(7){
+    background: red;
+    color: white;
+}
+
+body > h1:nth-last-of-type(3){
+    background: red;
+    color: white;
+}
+
+body > h1:last-of-type{
+    background: red;
+    color: white;
+}
